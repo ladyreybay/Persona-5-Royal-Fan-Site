@@ -1,0 +1,42 @@
+/* Rey Piater-Boswell 25678592 */
+html {
+    background-color: rgb(8, 8, 8);
+    color: rgb(233, 221, 221);
+}
+
+nav {
+    background-color: rgb(19, 17, 17);
+}
+
+nav a, li.about>a, ul.imgvids a, ul.media a, p a {
+    color: #e93c3c;
+}
+
+nav a:hover, li.about>a:hover, ul.media a:hover,ul.imgvids a:hover, p a:hover, h2, figcaption, .active {
+    color: #e4d024;
+}
+
+footer a {
+    background-color: #f73d3db4;
+    color: black;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #f73d3db4;
+    color: #e4d024;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(27, 216, 27);
+    color: black;
+}
+
+legend, h1, h2#spingames~h3, h4 {
+    color: #e93c3c;
+}
+
+fieldset>input { 
+    background-color: rgba(238, 232, 232, 0.575);
+}

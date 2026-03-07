@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--Rey Piater-Boswell 25678592-->
+<html lang="en" id="form">
+    <head>
+        <title>Phanclub Signup | P5R PhanSite</title>
+        <meta name="author" content="Rey Piater-Boswell">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="media/images/p5r.ico" type="image/x-icon">
+        <link href="css/nav.css" rel="stylesheet" type="text/css">
+        <link href="css/fonts.css" rel="stylesheet" type="text/css">
+        <link href="css/form.css" rel="stylesheet" type="text/css">
+        <link href="css/colours.css" rel="stylesheet" type="text/css">
+        <link href="css/layout.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <img src="media/images/P5RoyalBanner.png" alt="Banner image featuring Joker 
+            and Kasumi with the title of 'Persona 5 Royal'">
+        </header>
+        <header class="sticky">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a><li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="media.html">Alternative Media</a></li>
+                    <li><a href="fanclub.html" class="active">Fanclub</a></li>
+                </ul>
+                <hr>
+            </nav><!--In own header to properly use sticky positon -->
+        </header>
+        <div>
+            <h1><i>Phan</i>club Signup</h1>
+            <p id="fanwelcome">
+                Welcome to the Phanclub Signup! Please provide <b>your details</b> in the form below
+                to receive any updates.
+                <br>
+                <small>Asterisk (*) indicates a required field</small>
+            </p>
+            <form action="result.html" method="post"> <!--Contains form elements for the fanclub signup "interface"-->
+                <fieldset>
+                    <legend>Signup Details</legend>
+                    <p class="details">Personal Details</p>
+                    <label for="name">Name:</label>
+                    <br>
+                    <input class="inp" type="text" name="name" id="name"><label id="prefnamelab">*</label>
+                    <span id="nameMes"></span>
+                    <br>
+                    <label for="username">Prefered Username:</label>
+                    <br>
+                    <input class="inp" type="text" name="username" id="username"><label id="usernamelab">*</label>
+                    <span id="usernameMes"></span>
+                    <br>
+                    <label for="password">Password:</label>
+                    <br>
+                    <input class="inp" type="text" name="password" id="password"><label id="passwordlab">*</label>
+                    <span id="passMes"></span>
+                    <br>
+                    <label for="confirm">Confirm Password:</label>
+                    <br>
+                    <input class="inp" type="text" name="confirmpass" id="confirm"><label id="confirmlab">*</label>
+                    <span id="conMes"></span>
+                    <br>
+                    <label for="surname">Surname:</label>
+                    <br>
+                    <input class="inp" type="text" name="surname" id="surname"><label id="surnamelab">*</label>
+                    <span id="surnameMes"></span>
+                    <br>
+                    <label for="birth">Birth Date:</label>
+                    <br>
+                    <input class="inp" type="date" name="birthday" id="birth"><label id="birthlab">*</label>
+                    <span id="birthMes"></span>
+                    <br>
+                    <p class="details">Contact Details</p>
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <br>
+                    <input class="inp" type="email" name="email" id="email" placeholder="Please Enter Email Address"><label id="emaillab">*</label>
+                    <span id="emailMes"></span>
+                    <br>
+                    <label for="cell">Cell Number:</label>
+                    <br>
+                    <input class="inp" type="text" name="cellnum" id="cell" placeholder="Please Enter Phone Number"><label id="cnumlab">*</label>
+                    <span id="cellMes"></span>
+                    <br>
+                    <section>
+                        <label class="details">Prefered Method of Contact</label>
+                        <br>
+                        <input type="radio" name="contact" id="whatsapp" value="whatsapp" checked>
+                        <label for="whatsapp">WhatsApp</label>
+                        <input type="radio" name="contact" id="emailcontact" value="email">
+                        <label for="emailcontact">Email</label>
+                        <input type="radio" name="contact" id="sms" value="sms">
+                        <label for="sms">SMS</label>
+                    </section>
+                    <br>
+                    <input type="submit" value="Submit" id="submitForm"><br>
+                    <span id="subMes"></span>
+                </fieldset>
+            </form>
+        </div>
+        <script src="validate.js"></script>
+    </body>
+</html>

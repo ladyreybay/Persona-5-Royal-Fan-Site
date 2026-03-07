@@ -1,0 +1,25 @@
+/* Rey Piater-Boswell 25678592 */
+nav ul>li {
+    display: inline-flex;
+    align-items: center;
+    padding: 30px 10px 10px 10px;
+}
+
+nav {
+    text-align: center;
+    -webkit-transform: translateY(-10%);
+    -moz-transform: translateY(-10%);
+    -o-transform: translateY(-10%);
+    transform: translateY(-10%);
+} /*adjusting the links of the nav bar*/
+
+header.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+header>img {
+    width: 100%;
+    display: flex;
+}/*adjusting the size of the banner that helps form part of the nav bar*/

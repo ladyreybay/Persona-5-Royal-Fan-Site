@@ -1,0 +1,103 @@
+/* Rey Piater-Boswell 25678592 */
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=National+Park:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+li, a, h1, h2, h3, h4, legend {
+    font-family: "Playfair Display";
+}
+
+footer a, input[type="submit"], small, b, i {
+    font-family: "Sour Gum";
+}
+
+p, form {
+    font-family: "Ubuntu Sans";
+}
+
+nav a, li.about>a, ul.imgvids a {
+    text-decoration: none;
+    font-size: 1.7em;
+    letter-spacing: 0.08em;
+}
+
+ul.media a {
+    text-decoration: none;
+}
+
+ul.media li{
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+p, blockquote {
+    font-size: 1.18em;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+
+ul#palaces>li, ul#facts>li {
+    font-size: 1.21em;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+}
+
+.gallery {
+    text-align: center;
+    font-size: 150%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 280%;
+    letter-spacing: 3px;
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+footer a {
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 6px;
+}
+
+footer p {
+    margin-top: 2em;
+    text-align: center;
+}
+
+a.active {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+h1 small {
+    font-size: 50%;
+}
+
+fieldset>input {
+    font-size: 1em;
+}
+
+fieldset span {
+    font-size: 1.2em;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 120%;
+    letter-spacing: 1px;
+}
