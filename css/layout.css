@@ -1,4 +1,4 @@
-/* Rey Piater-Boswell 25678592 */
+
 body div.main {
     margin: 25px;
 }
@@ -504,4 +504,5 @@ nav a:hover, li.about>a:hover, ul.media a:hover,ul.imgvids a:hover {
         max-width: 240px;
         max-height: 240px;
     }
+
 }
