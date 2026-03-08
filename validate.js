@@ -1,4 +1,4 @@
-// Rey Piater-Boswell 25678592
+
 
 var prefname=document.getElementById("name"), surname=document.getElementById("surname");
 var username=document.getElementById("username"), birth=document.getElementById("birth");
@@ -234,4 +234,5 @@ cell.onblur = function(){
         cell.classList.add("inp");
         vaCell = true;
     }
+
 }
