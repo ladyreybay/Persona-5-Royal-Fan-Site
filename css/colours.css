@@ -1,4 +1,4 @@
-/* Rey Piater-Boswell 25678592 */
+
 html {
     background-color: rgb(8, 8, 8);
     color: rgb(233, 221, 221);
@@ -39,4 +39,5 @@ legend, h1, h2#spingames~h3, h4 {
 
 fieldset>input { 
     background-color: rgba(238, 232, 232, 0.575);
+
 }
