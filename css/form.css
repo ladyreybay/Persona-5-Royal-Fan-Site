@@ -1,4 +1,4 @@
-/* Rey Piater-Boswell 25678592 */
+
 form {
     box-sizing: border-box;
     width: 95%;
@@ -70,4 +70,5 @@ fieldset>label {
         -moz-transform: translateX(0);
         transform: translateX(0);
     }
+
 }
